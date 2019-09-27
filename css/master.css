@@ -3,7 +3,8 @@
 
 
 body {
-  margin : 0 auto 0 auto;
+  margin : 0 auto;
+  width: 700px;
 
   background-image: url(../image/dc-online-media-mockup.jpg);
   background-repeat: no-repeat;
@@ -16,5 +17,45 @@ body {
   }
 
 h1 {
-  color: red;
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 65px;
+}
+h1+p{
+  font-size: 20px;
+  color: #A9A9A9;
+  line-height: 30px;
+}
+p{
+  margin-top: 15px;
+  font-size: 25;
+  line-height: 25px;
+
+}
+h2{
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 65px;
+
+}
+h3{
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 10px;
+
+}
+h4{
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+ol, li{
+  list-style: disc outside;
+  padding: 10px 20px;
+  padding-left: 30px;
+  font-size: 20px;
+}
+li{
+  padding-top: 6px;
+  line-height: 30px;
 }
