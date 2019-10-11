@@ -1,61 +1,122 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:700&display=swap&subset=cyrillic');
 
-
 body {
-  margin : 0 auto;
-  width: 700px;
-
-  background-image: url(../image/dc-online-media-mockup.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 800px 20624px;
-
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   font-family: 'PT Sans ', sans-serif;
+}
 
-  }
+img {
+  width: 800px;
+  margin: 0 auto;
+  display: block;
+  /* background-image: url(../image/dc-online-media-mockup.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 800px 20624px; */
+}
+
+h1, h2, h3, p, ul, blockquote {
+  width: 700px;
+  margin: 0 auto;
+}
 
 h1 {
   font-size: 45px;
   font-weight: 700;
   margin-top: 65px;
 }
-h1+p{
+
+h1 + p {
   font-size: 20px;
   color: #A9A9A9;
   line-height: 30px;
 }
-p{
-  margin-top: 15px;
-  font-size: 25;
-  line-height: 25px;
 
+p {
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 33px;
 }
-h2{
+
+h2 {
   font-size: 30px;
   font-weight: 700;
   margin-top: 65px;
-
 }
-h3{
+
+h3 {
   font-size: 20px;
   font-weight: 700;
   padding-top: 10px;
-
 }
-h4{
+
+h4 {
   font-size: 20px;
   font-weight: 700;
   padding-top: 30px;
 }
-ol, li{
-  list-style: disc outside;
+
+ol, li {
+
   padding: 10px 20px;
   padding-left: 30px;
   font-size: 20px;
 }
-li{
+
+li {
   padding-top: 6px;
   line-height: 30px;
 }
+
+a {
+  color: black;
+}
+
+img {
+  display: block;
+  width: 1020px;
+  margin: 80px auto;
+}
+
+img + h2 {
+  margin-top: -10px;
+}
+
+img + p {
+  margin-top: -15px;
+}
+
+nav {
+  background: white;
+  position: fixed;
+  padding: 20px 30px;
+  top: 0;
+  left: 0;
+  bottom: 20px;
+  margin: 0px;
+  box-shadow: 0px 1px 20px;
+  transition: opacity 400ms ease, box-shadow 400ms ease;
+  }
+
+  nav ul{
+    width: 300px;
+  }
+
+  nav a{
+    text-decoration: none;
+    color: inherit;
+  }
+  #d{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+  }
+   nav ul li ul{
+     margin-top: 15px;
+     margin-left: 15px;
+     color: grey;
+     line-height: 10px;
+   }
